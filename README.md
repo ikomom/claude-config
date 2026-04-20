@@ -62,8 +62,14 @@ cp -r hooks/* ~/.claude/hooks/
 ### Settings
 
 配置文件模板位于 `settings/` 目录：
-- `settings.example.json`: 全局配置示例
+- `settings.example.json`: 全局配置示例（包含 Exa 搜索集成）
 - `keybindings.example.json`: 快捷键配置示例
+
+**特色配置**：
+- Opus 快速模式（`opus[1m]`）
+- 实验性团队功能
+- TypeScript/Python LSP 支持
+- Exa AI 搜索集成
 
 ### Hooks
 

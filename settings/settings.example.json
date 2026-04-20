@@ -1,6 +1,12 @@
 {
-  "model": "claude-sonnet-4-6",
-  "theme": "dark",
+  "model": "opus[1m]",
+  "effortLevel": "low",
+  "autoUpdatesChannel": "latest",
+  "enabledPlugins": {
+    "typescript-lsp@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "context7@claude-plugins-official": true
+  },
   "permissions": {
     "bash": {
       "allowed": [
@@ -16,6 +22,19 @@
     "user-prompt-submit": "~/.claude/hooks/on-submit.sh"
   },
   "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "true",
+    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "80",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet",
     "DEBUG": "false"
+  },
+  "extraKnownMarketplaces": {
+    "exa": {
+      "source": {
+        "source": "url",
+        "url": "https://mcp.exa.ai/mcp?exaApiKey=YOUR_EXA_API_KEY"
+      },
+      "enabled": true,
+      "autoUpdate": false
+    }
   }
 }

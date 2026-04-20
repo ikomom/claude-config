@@ -8,13 +8,20 @@
 ## [Unreleased]
 
 ### Added
-- 初始化仓库结构
-- 添加 project-analyzer skill v1.0.0
-- 添加安装、更新、卸载脚本
+- Exa AI 搜索集成配置
+- 更完善的 settings.example.json（包含 Opus 快速模式、实验性功能、LSP 插件）
+- Settings 配置详细说明文档
+
+### Changed
+- 更新 settings.example.json 为实际使用的配置
+- 更新 README 添加特色配置说明
 
 ## [1.0.0] - 2026-04-20
 
 ### Added
+- 初始化仓库结构
+- 添加 project-analyzer skill v1.0.0
+- 添加安装、更新、卸载脚本
 - **project-analyzer skill**: 项目分析工具
   - 使用 Haiku 子代理并行分析
   - 自动生成中文技术文档
