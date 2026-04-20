@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@context7/mcp-server"],
+      "description": "访问最新的库文档和 API 参考"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/dir"],
+      "description": "访问本地文件系统（需要修改路径）"
+    }
+  }
+}

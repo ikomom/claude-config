@@ -1,0 +1,16 @@
+{
+  "keybindings": [
+    {
+      "key": "ctrl+enter",
+      "command": "submit"
+    },
+    {
+      "key": "ctrl+k",
+      "command": "clear"
+    },
+    {
+      "key": "ctrl+r",
+      "command": "reload"
+    }
+  ]
+}

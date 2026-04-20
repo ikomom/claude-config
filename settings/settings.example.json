@@ -1,0 +1,21 @@
+{
+  "model": "claude-sonnet-4-6",
+  "theme": "dark",
+  "permissions": {
+    "bash": {
+      "allowed": [
+        "ls",
+        "pwd",
+        "git status",
+        "git diff",
+        "npm test"
+      ]
+    }
+  },
+  "hooks": {
+    "user-prompt-submit": "~/.claude/hooks/on-submit.sh"
+  },
+  "env": {
+    "DEBUG": "false"
+  }
+}
