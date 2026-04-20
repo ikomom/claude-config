@@ -26,15 +26,5 @@
     "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "80",
     "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet",
     "DEBUG": "false"
-  },
-  "extraKnownMarketplaces": {
-    "exa": {
-      "source": {
-        "source": "url",
-        "url": "https://mcp.exa.ai/mcp?exaApiKey=YOUR_EXA_API_KEY"
-      },
-      "enabled": true,
-      "autoUpdate": false
-    }
   }
 }

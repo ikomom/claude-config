@@ -62,14 +62,22 @@ cp -r hooks/* ~/.claude/hooks/
 ### Settings
 
 配置文件模板位于 `settings/` 目录：
-- `settings.example.json`: 全局配置示例（包含 Exa 搜索集成）
+- `settings.example.json`: 全局配置示例
 - `keybindings.example.json`: 快捷键配置示例
 
 **特色配置**：
 - Opus 快速模式（`opus[1m]`）
 - 实验性团队功能
 - TypeScript/Python LSP 支持
-- Exa AI 搜索集成
+
+### MCP 服务器
+
+MCP 服务器配置位于 `mcp/` 目录，包含：
+- **Context7**: 访问最新的库文档
+- **Exa AI**: AI 驱动的网页搜索
+- **Filesystem**: 本地文件系统访问
+
+参考 `mcp/README.md` 了解如何配置。
 
 ### Hooks
 

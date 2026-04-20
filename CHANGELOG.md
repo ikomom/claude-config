@@ -7,8 +7,19 @@
 
 ## [Unreleased]
 
+### Changed
+- 将 Exa 配置从 settings.json 移到 mcp/servers.json（更符合标准）
+- 更新 mcp/README.md 添加详细的使用说明和 Exa 配置指南
+- 更新 settings/README.md 移除 Exa 配置说明，添加 MCP 配置引用
+- 简化 settings.example.json，移除 extraKnownMarketplaces
+
 ### Added
-- Exa AI 搜索集成配置
+- mcp/servers.json 中添加 Exa AI Search 配置示例
+- mcp/README.md 中添加环境变量配置方式说明
+
+## [1.0.1] - 2026-04-20
+
+### Added
 - 更完善的 settings.example.json（包含 Opus 快速模式、实验性功能、LSP 插件）
 - Settings 配置详细说明文档
 

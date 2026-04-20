@@ -5,6 +5,14 @@
       "args": ["-y", "@context7/mcp-server"],
       "description": "访问最新的库文档和 API 参考"
     },
+    "exa": {
+      "command": "npx",
+      "args": ["-y", "@exa/mcp-server"],
+      "env": {
+        "EXA_API_KEY": "YOUR_EXA_API_KEY"
+      },
+      "description": "AI 驱动的网页搜索和内容提取"
+    },
     "filesystem": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/dir"],
